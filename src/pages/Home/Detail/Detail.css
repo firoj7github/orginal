@@ -1,0 +1,50 @@
+.detail-all{
+    width: 100%;
+    height: 590px;
+    background-color: rgb(31, 31, 31);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.detail-img img{
+    width: 570px;
+    height: 590px;
+    background-color: darkslategray;
+    border-radius: 2px;
+}
+.detail-about{
+    width: 600px;
+    margin-left: 40px;
+}
+.detail-about h4{
+    color: white;
+    font-weight: 700;
+    padding-top: 33px;
+    margin-left: 10px;
+}
+.experience{
+    width: 100px;
+    height: 37px;
+    background-color: darkslategrey;
+    color: rgb(250, 242, 242);
+    text-align: center;
+    font-weight: 500;
+    margin: 7px;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 2px;
+   
+}
+.exp-manage{
+  display: flex;
+  flex-wrap: wrap;
+
+  
+    
+}
+.about-title{
+    color: white;
+    width: 550px;
+    font-size: 20px;
+    margin-left: 10px;
+    
+}

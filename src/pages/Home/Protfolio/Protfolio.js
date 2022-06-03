@@ -3,6 +3,7 @@ import Particles from 'react-tsparticles';
 import './Protfolio.css'
 import { loadFull } from "tsparticles";
 import { Link } from 'react-router-dom';
+import Typical from 'react-typical'
 const Protfolio = () => {
     const particlesInit = async (main) => {
         console.log(main);
@@ -51,10 +52,10 @@ const Protfolio = () => {
         },
         particles: {
           color: {
-            value: "#C0C0C0",
+            value: "#acacac",
           },
           links: {
-            color: "#C0C0C0",
+            color: "#acacac",
             distance: 140,
             enable: true,
             opacity: 0.5,
@@ -78,7 +79,7 @@ const Protfolio = () => {
               enable: true,
               area: 800,
             },
-            value: 80,
+            value: 70,
           },
           opacity: {
             value: 0.5,
@@ -104,6 +105,30 @@ const Protfolio = () => {
         </ul>
     </div>
     
+
+    <div className='head-manage'>
+      <h1> HI I'A <span className='name-color'>FIROJ</span> </h1>
+     
+      <h2>
+        <Typical className='type'
+           loop={Infinity}
+           steps={[
+             "React Developer",
+             2000,
+             "Laravel Developer",
+             2000,
+             "Mern Stack Developer",
+             2000,
+             "A Fullstack Web Developer",
+             2000
+           ]}
+        />
+      </h2>
+      <small>Knock of bulding application with front and backend operation.</small>
+      <br/>
+      <button>DOWNLOAD CV</button>
+    </div>
+     
             
         </div>
     );

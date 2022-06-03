@@ -6,6 +6,7 @@
     width: 100%;
     height: 625px;
     background: url(../../../image/bac2.png);
+    
    
    
 }
@@ -35,4 +36,37 @@
 }
 .span-title{
   color: orange;
+}
+.head-manage{
+   margin-top: 150px;
+   color: white;
+   margin-left: 70px;
+}
+.name-color{
+   color: crimson;
+}
+.head-manage h1{
+    font-size: 64px;
+ 
+}
+.head-manage p{
+    font-size: 31px;
+}
+
+.head-manage button{
+    background-color: darkorange;
+    padding-right: 11px;
+    padding-left: 11px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: white;
+    background-color: rgb(19, 17, 17);
+    border-radius: 7px;
+    border: 1px solid white;
+    margin-top: 21px;
+    font-weight: 600;
+}
+
+.head-manage small{
+    font-size: 22px;
 }
