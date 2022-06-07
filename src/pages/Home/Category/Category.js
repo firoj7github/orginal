@@ -4,9 +4,16 @@ import './Category.css'
 const Category = ({service}) => {
     const { img}=service;
     return (
-        <div className='category-img'>
+
+       
+            <div className='category-img'>
             <img src={img} alt=""></img>
+            
+            <a href="">Github</a>
+            <a href="">Live Demo</a>
+      
         </div>
+        
     );
 };
 

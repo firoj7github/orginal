@@ -1,6 +1,32 @@
 .category-img img{
-    width: 340px;
+    width: 304px;
     height: 270px;
-    padding-bottom: 33px;
+    padding-bottom: 15px;
     border-radius: 2px;
+    padding-left: 16px;
+    border-radius: 7px;
+    padding-top: 16px;
+    
+}
+.category-img a{
+    text-decoration: none;
+   background-color: darkslategrey;
+   padding-left: 11px;
+   padding-right: 11px;
+   padding-top: 7px;
+   padding-bottom: 7px;
+   margin-left: 10px;
+   color: white;
+   margin-left: 16px;
+   border-radius: 2px;
+
+}
+.category-img{
+    width: 320px;
+    height: 370px;
+   background-color: rgb(23, 27, 27);
+    margin-bottom: 32px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
