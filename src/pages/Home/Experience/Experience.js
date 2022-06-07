@@ -7,6 +7,13 @@ import {FaPalette} from "react-icons/fa";
 const Experience = () => {
     return (
         <div className='experience-all'>
+            <h1><span className='o-color'>M</span>y Experience</h1>
+            <div className='line-all'>
+                <div className='line-1'></div>
+                <div className='line-2'></div>
+
+            </div>
+          
            <div className='all'>
                
                <div className='part-1'>
