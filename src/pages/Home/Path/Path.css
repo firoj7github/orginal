@@ -2,9 +2,51 @@
     width: 100%;
     height: 800px;
     background-color: rgb(22, 22, 22);
-    clip-path: circle(178vh at 48% 201vh);
+    clip-path: circle(178vh at 48%  201vh);
    
     margin-top: -440px;
-    /* clip-path: polygon( 100% 0, 100% 10%, 0 0, 0 10% ); */
-    /* clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 0); */
+    
 }
+.testonimal-image img{
+    
+    width: 220px;
+    
+    
+   
+    clip-path: polygon(0% 0%, 69% 0, 68% 84%, 40% 100%, 0% 100%);
+    
+}
+.testonimal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   margin-left: 29px;
+   width: 600px;
+    
+}
+.testonimal-title{
+    margin-right: 300px;
+    width: 330px;
+    height: 250px;
+}
+.testonimal-title p{
+    color: white;
+  
+    width: 330px;
+    margin-right: 175px;
+    margin-bottom: 10px;
+    
+}
+.testonimal-title h5{
+    padding-top: 15px;
+    color: white; 
+}
+.path-all h1{
+    padding-top: 300px;
+    color: white;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.testonimal-title a{
+    padding-top: 500px;
+}
+

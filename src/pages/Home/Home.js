@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import Detail from './Detail/Detail';
 import Experience from './Experience/Experience';
 import Path from './Path/Path';
@@ -14,6 +15,7 @@ const Home = () => {
           <Slider></Slider>
           <Experience></Experience>
           <Path></Path>
+          <Footer></Footer>
         </div>
     );
 };

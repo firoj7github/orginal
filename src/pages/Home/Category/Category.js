@@ -8,7 +8,7 @@ const Category = ({service}) => {
        
             <div className='category-img'>
             <img src={img} alt=""></img>
-            
+            <p>Medical Website Design <br/> React Site  </p>
             <a href="">Github</a>
             <a href="">Live Demo</a>
       
