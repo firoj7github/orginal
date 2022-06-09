@@ -8,11 +8,11 @@ const Footer = () => {
             <p>If you have any sample design, just let me know. If you do <span className='sample'>not, just relax and let me awe you with my work.</span> </p>
            
              
-            <form>
-                <input type='email'name='email' ></input>
-                <input value='submit' >submit</input>
+           
+          <input className='field' type='email' placeholder='Your Email'></input>
+          <button className='submit-btn'>Submit</button>
 
-            </form>
+           
               
         </div>
     );
