@@ -4,3 +4,19 @@
    background-color: rgb(15, 14, 14);
    clip-path: inset(0 0 0 0);
 }
+.footer-all h3{
+   color: white;
+   text-align: center;
+   padding-top: 75px;
+}
+.footer-all p{
+   width: 500px;
+   color: white;
+   margin-left: 450px;
+   font-size: 19px;
+   font-weight: 400;
+   padding-top: 15px;
+}
+.sample{
+   margin-left:40px ;
+}
