@@ -21,14 +21,17 @@ const Footer = () => {
           
               <div className='footer-site'>
               <div>
-                  <h4>Design by @Firoj</h4>
+                  <h5>Design by @Firoj</h5>
                   
                 </div>
                 <div>
-                <h3 className='logo'><FaLinkedin></FaLinkedin> <span> <FaGithubSquare></FaGithubSquare> </span>
+                <h3 className='logo'>
+                    <span className='icon-system'><FaLinkedin></FaLinkedin></span>
+                    
+                     <span className='icon-system'> <FaGithubSquare></FaGithubSquare> </span>
                  
-                <span> <FaFacebook></FaFacebook> </span> 
-                <span> <FaWhatsappSquare></FaWhatsappSquare> </span> 
+                <span className='icon-system'> <FaFacebook></FaFacebook> </span> 
+                <span className='icon-system'> <FaWhatsappSquare></FaWhatsappSquare> </span> 
                 
                 </h3>
                
