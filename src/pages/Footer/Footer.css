@@ -32,11 +32,12 @@
    font-size: 19px;
    font-weight: 700;
    color: white;
+   padding-left: 10px;
   
 
 }
 .submit-btn{
-  background-color: darkslategray;
+ background-color: rgb(235, 53, 89);
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 12px;
@@ -46,4 +47,23 @@
   font-size: 17px;
   font-weight: 700;
   color: white;
+ margin-bottom: 70px;
+  
+}
+.line-big{
+   width: 1100px;
+   background-color: white;
+  height: 2px;
+  margin-left: 120px;
+}
+.footer-site{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+.footer-site h4{
+   padding-top: 65px;
+}
+.logo{
+
 }

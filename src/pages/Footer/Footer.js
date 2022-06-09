@@ -1,5 +1,10 @@
 import React from 'react';
 import './Footer.css'
+import {FaLinkedin} from "react-icons/fa";
+import {FaGithubSquare} from "react-icons/fa";
+import {FaTwitterSquare} from "react-icons/fa";
+import {FaWhatsappSquare} from "react-icons/fa";
+import {FaFacebook} from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -11,8 +16,27 @@ const Footer = () => {
            
           <input className='field' type='email' placeholder='Your Email'></input>
           <button className='submit-btn'>Submit</button>
+          <hr className='line-big'></hr>
 
-           
+          
+              <div className='footer-site'>
+              <div>
+                  <h4>Design by @Firoj</h4>
+                  
+                </div>
+                <div>
+                <h3 className='logo'><FaLinkedin></FaLinkedin> <span> <FaGithubSquare></FaGithubSquare> </span>
+                 
+                <span> <FaFacebook></FaFacebook> </span> 
+                <span> <FaWhatsappSquare></FaWhatsappSquare> </span> 
+                
+                </h3>
+               
+                </div>
+             
+          </div>
+
+        
               
         </div>
     );
