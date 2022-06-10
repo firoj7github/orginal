@@ -1,6 +1,6 @@
 import React from 'react';
 import './Path.css';
-import icon from '../../../image/p1.png.gif'
+import icon from '../../../image/best3.png'
 import { Autoplay } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';

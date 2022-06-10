@@ -17,7 +17,7 @@ const Experience = () => {
            <div className='all'>
                
                <div className='part-1'>
-               <h1 className='icon-2'><FaCode></FaCode></h1>
+               <h1 className='icon-22'><FaCode></FaCode></h1>
                 <h3>Web Design</h3>
                 <p>PSD to HTML</p>
                 <p>React Site</p>
@@ -27,7 +27,7 @@ const Experience = () => {
                 <p>Multiple Page</p>
                </div>
                <div className='part-2'>
-               <h1 className='icon-2'><HiDatabase></HiDatabase></h1>
+               <h1 className='icon-22'><HiDatabase></HiDatabase></h1>
                <h3>Web Development</h3>
                 <p>PSD to HTML</p>
                 <p>React Site</p>
@@ -37,7 +37,7 @@ const Experience = () => {
                 <p>Multiple Page</p>
                </div>
                <div className='part-3'>
-               <h1 className='icon-2'><FaPalette></FaPalette></h1>
+               <h1 className='icon-22'><FaPalette></FaPalette></h1>
                <h3>Web Design</h3>
                 <p>PSD to HTML</p>
                 <p>React Site</p>

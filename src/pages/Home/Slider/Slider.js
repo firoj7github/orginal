@@ -9,42 +9,48 @@ const Slider = () => {
         {
             "id":1,
             "img":"https://i.ibb.co/pzfW4w4/p1-png.gif",
-            "category":"html"
+            "category":"html",
+            "name":"Travel Website"
         
         
         },
         {
             "id":2,
-            "img":"https://i.ibb.co/pzfW4w4/p1-png.gif",
-            "category":"html"
+            "img":"https://i.ibb.co/w0r7vsb/Medical-Website-Design.jpg",
+            "category":"react",
+            "name":"Medical Website"
         
         
         },
         {
             "id":3,
-            "img":"https://i.ibb.co/pzfW4w4/p1-png.gif",
-            "category":"react"
+            "img":"https://i.ibb.co/Y0Z4s62/10-png.gif",
+            "category":"react",
+            "name":"Travel Website"
         
         
         },
         {
             "id":4,
-            "img":"https://i.ibb.co/pzfW4w4/p1-png.gif",
-            "category":"react"
+            "img":"https://i.ibb.co/SrcGTKh/new-arrival-headphone-banner-template-design-92fdef62bec8a565abe0a24ccc7535d0-screen.jpg",
+            "category":"react",
+            "name":"Ecommerce Website"
         
         
         },
         {
             "id":5,
-            "img":"https://i.ibb.co/pzfW4w4/p1-png.gif",
-            "category":"react"
+            "img":"https://i.ibb.co/S0GGM0f/img4-png.gif",
+            "category":"html",
+            "name":"Travel Website"
         
         
         },
         {
             "id":6,
-            "img":"https://i.ibb.co/pzfW4w4/p1-png.gif",
-            "category":"development"
+            "img":"https://i.ibb.co/t4hcwnJ/gimox-fitness-theme.png",
+            "category":"development",
+            "name":"Gymnastic Website"
         
         
         }

@@ -2,13 +2,13 @@ import React from 'react';
 import './Category.css'
 
 const Category = ({service}) => {
-    const { img}=service;
+    const { img, name}=service;
     return (
 
        
             <div className='category-img'>
             <img src={img} alt=""></img>
-            <p>Medical Website Design <br/> React Site  </p>
+            <p>{name} <br/> React Site  </p>
             <a href="">Github</a>
             <a href="">Live Demo</a>
       

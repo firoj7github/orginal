@@ -27,8 +27,7 @@
     width: 310px;
     text-align: center;
     border-radius: 9px;
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+   
 }
 .part-1 p{
     font-size: 19px;
@@ -42,8 +41,7 @@
     width: 310px;
     text-align: center;
     border-radius: 9px;
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
 }
 .part-3 p{
     font-size: 19px;
@@ -57,22 +55,23 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
     width: 310px;
     text-align: center;
     border-radius: 9px;
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+   
 }
 .part-2 p{
     font-size: 19px;
     font-weight: 600;
     margin:10px;
 }
-.icon-2{
+
+.icon-22{
     border: 1px solid white;
     width: 100px;
     height: 100px;
     margin-left: 100px;
     border-radius: 50%;
-    font-size: 120px;
+    font-size: 70px;
     margin-top: 15px;
+  
 
    
     
