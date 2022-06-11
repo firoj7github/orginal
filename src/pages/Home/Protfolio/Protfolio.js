@@ -126,7 +126,8 @@ const Protfolio = () => {
       </h2>
       <small>Knock of bulding application with front and backend operation.</small>
       <br/>
-      <button>DOWNLOAD CV</button>
+      <a href="https://drive.google.com/drive/my-drive"><button>DOWNLOAD CV</button></a>
+      
     </div>
      
             

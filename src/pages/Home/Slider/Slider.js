@@ -10,7 +10,9 @@ const Slider = () => {
             "id":1,
             "img":"https://i.ibb.co/pzfW4w4/p1-png.gif",
             "category":"html",
-            "name":"Travel Website"
+            "name":"Architecture Website",
+            "github":"https://github.com/firoj7github/React-architecture-web",
+            "live":"https://mellow-stardust-70be3a.netlify.app"
         
         
         },
@@ -18,7 +20,9 @@ const Slider = () => {
             "id":2,
             "img":"https://i.ibb.co/w0r7vsb/Medical-Website-Design.jpg",
             "category":"react",
-            "name":"Medical Website"
+            "name":"Medical Website",
+            "github":" https://github.com/firoj7github/React-medical-web",
+            "live":"https://incredible-sprite-50231f.netlify.app"
         
         
         },
@@ -26,7 +30,9 @@ const Slider = () => {
             "id":3,
             "img":"https://i.ibb.co/Y0Z4s62/10-png.gif",
             "category":"react",
-            "name":"Travel Website"
+            "name":"Travel Website",
+            "github":" https://github.com/firoj7github/React-Photographic-Web",
+            "live":"https://travel-web-9911a.web.app/"
         
         
         },
@@ -34,7 +40,9 @@ const Slider = () => {
             "id":4,
             "img":"https://i.ibb.co/SrcGTKh/new-arrival-headphone-banner-template-design-92fdef62bec8a565abe0a24ccc7535d0-screen.jpg",
             "category":"react",
-            "name":"Ecommerce Website"
+            "name":"Ecommerce Website",
+            "github":" https://github.com/firoj7github/React-Photographic-Web",
+            "live":"https://wirehouse-cbe76.web.app/"
         
         
         },
@@ -42,7 +50,9 @@ const Slider = () => {
             "id":5,
             "img":"https://i.ibb.co/S0GGM0f/img4-png.gif",
             "category":"html",
-            "name":"Travel Website"
+            "name":"Weadding Website",
+            "github":"https://github.com/firoj7github/Weadding-Website",
+            "live":"https://firoj7github.github.io/Weadding-Website/"
         
         
         },
@@ -50,7 +60,9 @@ const Slider = () => {
             "id":6,
             "img":"https://i.ibb.co/t4hcwnJ/gimox-fitness-theme.png",
             "category":"development",
-            "name":"Gymnastic Website"
+            "name":"Gymnastic Website",
+            "github":" https://github.com/firoj7github/React-Photographic-Web",
+            "live":""
         
         
         }

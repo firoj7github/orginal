@@ -7126,6 +7126,13 @@
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
 
+"react-animated-cursor@^2.5.1":
+  "integrity" "sha512-P+rDl/2+WYvo94X97Jk8ybD5be6UOa3aEZziU6qEToLlWvgSv6mKUtYD6k5zNjTXV024sl5E+fvbyyNCmDXnLw=="
+  "resolved" "https://registry.npmjs.org/react-animated-cursor/-/react-animated-cursor-2.5.1.tgz"
+  "version" "2.5.1"
+  dependencies:
+    "prop-types" "^15.8.1"
+
 "react-app-polyfill@^3.0.0":
   "integrity" "sha512-sZ41cxiU5llIB003yxxQBYrARBqe0repqPTTYBTmMqTz9szeBbE37BehCE891NZsmdZqqP+xWKdT3eo3vOzN8w=="
   "resolved" "https://registry.npmjs.org/react-app-polyfill/-/react-app-polyfill-3.0.0.tgz"
@@ -7168,7 +7175,7 @@
     "strip-ansi" "^6.0.1"
     "text-table" "^0.2.0"
 
-"react-dom@^15.0.0 || ^16.0.0", "react-dom@^18.0.0", "react-dom@^18.1.0", "react-dom@>=16.8":
+"react-dom@^15.0.0 || ^16.0.0", "react-dom@^16 || ^17 || ^18", "react-dom@^18.0.0", "react-dom@^18.1.0", "react-dom@>=16.8":
   "integrity" "sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.1.0.tgz"
   "version" "18.1.0"
@@ -7291,7 +7298,7 @@
   dependencies:
     "@camwiegert/typical" "^0.1.1"
 
-"react@*", "react@^15.0.0 || ^16.0.0", "react@^18.0.0", "react@^18.1.0", "react@>= 16", "react@>=16", "react@>=16.8":
+"react@*", "react@^15.0.0 || ^16.0.0", "react@^16 || ^17 || ^18", "react@^18.0.0", "react@^18.1.0", "react@>= 16", "react@>=16", "react@>=16.8":
   "integrity" "sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
   "version" "18.1.0"
