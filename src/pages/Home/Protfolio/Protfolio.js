@@ -98,9 +98,9 @@ const Protfolio = () => {
     <div className='header-all'>
         <h3>Protfo<span className='span-title'>lio.</span></h3>
         <ul>
-            <Link to=''>Home</Link>
-            <Link to=''>Protfolio</Link>
-            <Link to=''>Service</Link>
+            <Link to='/'>Home</Link>
+            <Link to='about'>About</Link>
+            <Link to='/blog'>Blog</Link>
             <Link to=''>Contact</Link>
         </ul>
     </div>

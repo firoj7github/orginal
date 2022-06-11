@@ -8,7 +8,7 @@ const Slider = () => {
    const services= [
         {
             "id":1,
-            "img":"https://i.ibb.co/pzfW4w4/p1-png.gif",
+            "img":"https://i.ibb.co/PcrrYxt/dynamic-web-pages.jpg",
             "category":"html",
             "name":"Architecture Website",
             "github":"https://github.com/firoj7github/React-architecture-web",
@@ -38,7 +38,7 @@ const Slider = () => {
         },
         {
             "id":4,
-            "img":"https://i.ibb.co/SrcGTKh/new-arrival-headphone-banner-template-design-92fdef62bec8a565abe0a24ccc7535d0-screen.jpg",
+            "img":"https://i.ibb.co/Y8ckrQ5/What-Can-You-Expect-From-Ecommerce-Website-Design.png",
             "category":"react",
             "name":"Ecommerce Website",
             "github":" https://github.com/firoj7github/React-Photographic-Web",
@@ -48,7 +48,7 @@ const Slider = () => {
         },
         {
             "id":5,
-            "img":"https://i.ibb.co/S0GGM0f/img4-png.gif",
+            "img":"https://i.ibb.co/rwkBRGP/1603866257-171-13-Beautiful-HTML-Wedding-Website-Templates-2020.jpg",
             "category":"html",
             "name":"Weadding Website",
             "github":"https://github.com/firoj7github/Weadding-Website",

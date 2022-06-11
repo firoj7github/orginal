@@ -4,6 +4,8 @@ import './App.css';
 import AnimatedCursor from "react-animated-cursor"
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
+import Blog from './pages/Home/Blog';
+import About from './pages/Home/About';
 
 
 function App() {
@@ -20,7 +22,9 @@ function App() {
     />
      
       <Routes>
-      <Route path='' element={<Home></Home>}></Route>
+      <Route path='/' element={<Home></Home>}></Route>
+      
+     
 
       </Routes>
     
