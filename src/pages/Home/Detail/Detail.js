@@ -1,6 +1,6 @@
 import React from 'react';
 import './Detail.css'
-import img from '../../../image/97=8=2021.jpg'
+import img from '../../../image/lol2.png'
 
 const Detail = () => {
     return (

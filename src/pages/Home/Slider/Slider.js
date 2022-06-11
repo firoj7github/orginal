@@ -65,11 +65,17 @@ const Slider = () => {
     }
     return (
         <div className='slider-all'>
+            <h1 className='slider-title'><span className='o-color'>M</span>y Protfolio</h1>
+            <div className='line-all-slide'>
+                <div className='line-3'></div>
+                <div className='line-4'></div>
+
+            </div>
             <div className='btn-all'>
-                <button onClick={()=>setItem(services)} className='slider-btn'>ALL</button>
-                <button  onClick={()=>filterSide('html')} className='slider-btn'>HTML DESIGN</button>
-                <button  onClick={()=>filterSide('react')} className='slider-btn'>REACT DESIGN</button>
-                <button  onClick={()=>filterSide('development')} className='slider-btn'>WEB DEVELOPMENT</button>
+                <a onClick={()=>setItem(services)} className='slider-btn'><span>ALL</span></a>
+                <a  onClick={()=>filterSide('html')} className='slider-btn'><span>HTML DESIGN</span></a>
+                <a  onClick={()=>filterSide('react')} className='slider-btn'><span>REACT</span></a>
+                <a  onClick={()=>filterSide('development')} className='slider-btn'><span>WEB DEVELOPMENT</span></a>
             </div>
             <div className='service-all'>
                 {

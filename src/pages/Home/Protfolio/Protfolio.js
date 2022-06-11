@@ -119,7 +119,7 @@ const Protfolio = () => {
              2000,
              "Mern Stack Developer",
              2000,
-             "A Fullstack Web Developer",
+             "Fullstack Web Developer",
              2000
            ]}
         />
