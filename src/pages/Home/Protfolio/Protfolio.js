@@ -4,6 +4,11 @@ import './Protfolio.css'
 import { loadFull } from "tsparticles";
 import { Link } from 'react-router-dom';
 import Typical from 'react-typical'
+import {FaLinkedin} from "react-icons/fa";
+import {FaGithubSquare} from "react-icons/fa";
+import {FaTwitterSquare} from "react-icons/fa";
+import {FaWhatsappSquare} from "react-icons/fa";
+import {FaFacebook} from "react-icons/fa";
 const Protfolio = () => {
     const particlesInit = async (main) => {
         console.log(main);
@@ -129,7 +134,17 @@ const Protfolio = () => {
       <a href="https://drive.google.com/drive/my-drive"><button>DOWNLOAD CV</button></a>
       
     </div>
-     
+
+    <div className='protfolio-icon'></div>
+    <h4 className='logo-manage'>
+                    <span className='icon-system-change'><FaLinkedin></FaLinkedin></span>
+                    <span className='icon-system-change'> <FaFacebook></FaFacebook> </span>
+                     <span className='icon-system-change'> <FaGithubSquare></FaGithubSquare> </span>
+                 
+                 
+                
+                
+                </h4>
             
         </div>
     );

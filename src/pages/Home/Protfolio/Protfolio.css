@@ -73,3 +73,29 @@
 .head-manage small{
     font-size: 22px;
 }
+.logo-manage{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 1310px;
+    
+   padding-top: 52px;
+}
+.icon-system-change{
+    padding: 5px;
+    font-size: 20px;
+}
+@media only screen and(max-width:576px) {
+    .protfolio-all{
+       
+       background: url(../../../image/bac2.png);
+       position: sticky;
+       background-size: cover;
+       top: 0px;
+      
+       
+        
+       
+       
+    }
+}

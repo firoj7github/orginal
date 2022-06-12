@@ -80,7 +80,7 @@ const Path = () => {
                     </div>
                     <div className='testonimal-title' >
                       <h5>Whta plan are you want?</h5>
-                      <p>When talking about future goals, show that you are ambitious and career oriented, but without giving the impression. </p>
+                      <p>When talking about future goals, show that you are ambitious and career oriented. </p>
                       <a href="">Read More</a>
                       </div>
                     </SwiperSlide>

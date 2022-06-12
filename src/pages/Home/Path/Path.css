@@ -21,7 +21,7 @@
 .testonimal{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-   margin-left: 29px;
+   margin-left: 27px;
    width: 600px;
     
 }
