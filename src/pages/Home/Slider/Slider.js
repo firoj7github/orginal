@@ -10,9 +10,9 @@ const Slider = () => {
             "id":1,
             "img":"https://i.ibb.co/PcrrYxt/dynamic-web-pages.jpg",
             "category":"html",
-            "name":"Architecture Website",
+            "name":"Designer Website",
             "github":"https://github.com/firoj7github/React-architecture-web",
-            "live":"https://mellow-stardust-70be3a.netlify.app"
+            "live":"https://incomparable-cendol-501f80.netlify.app/"
         
         
         },

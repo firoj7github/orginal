@@ -79,11 +79,12 @@
     color: white;
     margin-left: 1310px;
     
-   padding-top: 52px;
+   padding-top: 54px;
 }
 .icon-system-change{
-    padding: 5px;
+    padding: 6px;
     font-size: 20px;
+    color: white;
 }
 @media only screen and(max-width:576px) {
     .protfolio-all{

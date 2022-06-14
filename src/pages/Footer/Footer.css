@@ -70,8 +70,10 @@
 }
 .logo{
 margin-left: 220px;
-
+text-decoration: none;
 }
 .icon-system{
    padding: 10px;
+   color: white;
+  
 }
