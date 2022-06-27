@@ -54,23 +54,16 @@
     margin-left: 10px;
     
 }
-@media(max-width:768px) {
+@media (max-width:768px)
+ {
     .detail-all{
-     
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    
-    
-        /* clip-path: inset(0 0 0 0); */
-    }
-}
-@media(max-width:500px) {
-    .detail-all{
-     
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    
-    
-        /* clip-path: inset(0 0 0 0); */
-    }
-}
+        width: auto;
+        height: auto;
+        /* background-color: rgb(15, 14, 14); */
+      
+        background-color: chocolate;
+        grid-template-columns: repeat(1, 1fr);
+        clip-path: inset(0 0 0 0);
+       
+    } 
+ }

@@ -45,7 +45,7 @@
 }
 .service-all{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(304px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     width: 1120px;
     
     margin-left: 130px;
@@ -85,18 +85,46 @@
     color: crimson;
   
 }
-@media only screen and(max-width: 576px) {
+@media (max-width:575px)
+ {
+    body{
+        background-color: brown;
+    }
    
-    .slider-all{
+    
+    .service-all{
+        
+        grid-template-columns: repeat(1, 1fr);
         width: auto;
+        height: 4100px;
+        background-color: brown;
+        padding-top: 50px;
+       
+    }
+
+    
+}
+@media (max-width:768px)
+ {
+    body{
+        background-color: brown;
+    }
+   
+    
+    .service-all{
+        
+        grid-template-columns: repeat(1, 1fr);
+        width: auto;
+       
+        height: auto;
+      
+        
+       
+       
+    }
+    .slider-all{
         height: auto;
     }
-    .service-all{
-        display: grid;
-        grid-template-columns: repeat(auto-fit(1, 1fr));
-        
-        height:auto;
+
     
-        /* clip-path: inset(0 0 0 0); */
-    }
 }

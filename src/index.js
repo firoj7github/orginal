@@ -14,10 +14,10 @@ root.render(
     
   </React.StrictMode>
 );
-window.addEventListener('contextmenu', function (e) {
-  document.body.innerHTML += '<p>Right-click is disabled</p>'
-  e.preventDefault();
-}, false);
+// window.addEventListener('contextmenu', function (e) {
+//   document.body.innerHTML += '<p>Right-click is disabled</p>'
+//   e.preventDefault();
+// }, false);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
