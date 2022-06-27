@@ -52,3 +52,32 @@
     padding-top: 500px;
 }
 
+
+@media (max-width:768px)
+ {
+    
+    
+    
+    
+    .path-all{
+        width: auto;
+        height: auto;
+        clip-path: circle(178vh at 48%  201vh);
+    }
+    .testonimal{
+        width: 500px;
+        margin-left: 172px;
+    }
+    .testonimal-image img{
+        width: 180px;
+        height: 150px;
+    }
+    .testonimal-title{
+        width: 250px;
+        height: 120px;
+        margin-bottom: 150px;
+    }
+
+    
+}
+

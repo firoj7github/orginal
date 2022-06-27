@@ -20,25 +20,25 @@ const Detail = () => {
                    <div >
 
                        <sapn className='exp-manage'>
-                       <p className='experience'>Laravel</p>
-                       <p className='experience'>React</p>
-                       <p className='experience'>Typescript</p>
-                       <p className='experience'>Angular</p>
-                       <p className='experience'>Redux</p>
-                       <p className='experience'>HTML5</p>
-                       <p className='experience'>CSS3</p>
+                       <p className='experience-element'>Laravel</p>
+                       <p className='experience-element'>React</p>
+                       <p className='experience-element'>Typescript</p>
+                       <p className='experience-element'>Angular</p>
+                       <p className='experience-element'>Redux</p>
+                       <p className='experience-element'>HTML5</p>
+                       <p className='experience-element'>CSS3</p>
                        <br/>
-                       <p className='experience'>Javascript</p>
-                       <p className='experience'>Node Js</p>
-                       <p className='experience'>Express Js</p>
-                       <p className='experience'>Bootstrap5</p>
-                       <p className='experience'>Jquery</p>
-                       <p className='experience'>Git</p>
-                       <p className='experience'>Github</p>
-                       <p className='experience'>Twailwind</p>
-                       <p className='experience'>Firebase</p>
-                       <p className='experience'>Mysql</p>
-                       <p className='experience'>Mongo db</p>
+                       <p className='experience-element'>Javascript</p>
+                       <p className='experience-element'>Node Js</p>
+                       <p className='experience-element'>Express Js</p>
+                       <p className='experience-element'>Bootstrap5</p>
+                       <p className='experience-element'>Jquery</p>
+                       <p className='experience-element'>Git</p>
+                       <p className='experience-element'>Github</p>
+                       <p className='experience-element'>Twailwind</p>
+                       <p className='experience-element'>Firebase</p>
+                       <p className='experience-element'>Mysql</p>
+                       <p className='experience-element'>Mongo db</p>
                        </sapn>
                    
                    

@@ -109,9 +109,27 @@
 }
 @media (max-width:768px)
  {
-    /* .experience-all{
-        padding-top: 1100px;
-    } */
-
+    .all{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width:auto;
+        margin-left: 130px;
+        padding-top:10px ;
+        height: auto;
+    }
+    .experience-all{
+        height: 1620px;
+        width:auto;
+        margin-bottom: 50px;
+    }
+   .part-1{
+    margin-bottom: 35px;
+   }
+   .part-2{
+    margin-bottom: 35px;
+   }
+   .part-3{
+    margin-bottom: 35px;
+   }
     
 }

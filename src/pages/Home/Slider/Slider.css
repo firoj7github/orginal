@@ -87,29 +87,27 @@
 }
 @media (max-width:575px)
  {
-    body{
-        background-color: brown;
-    }
+    
    
     
     .service-all{
         
         grid-template-columns: repeat(1, 1fr);
         width: auto;
-        height: 4100px;
-        background-color: brown;
+        
+      
         padding-top: 50px;
        
+    }
+    .slider-all{
+        height: auto;
     }
 
     
 }
 @media (max-width:768px)
  {
-    body{
-        background-color: brown;
-    }
-   
+    
     
     .service-all{
         
