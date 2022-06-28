@@ -4,12 +4,13 @@ import img from '../../../image/lol2.png'
 
 const Detail = () => {
     return (
-        <div id='about' className='detail-all'>
-           
-                <div className=' detail-img'>
+        <div  className='detail-all'>
+            <div className='detail-manage'>
+
+            <div className=' detail-img'>
                      <img src={img} alt=''></img>
                 </div>
-                <div className='col-lg-6 col-md-6 col-sm-12 detail-about'>
+                <div className='detail-about'>
                    <h4>ABOUT ME</h4>
                    <p className='about-title'>
                    My name is firoj hossain. I complete BSC in Computer Science from national University. I'm a passionate web designer and developer with 2 year experience in this domain, focused on building great and premium websites. I have done 60+ local projects in frontend development.
@@ -17,7 +18,8 @@ const Detail = () => {
                    <br/>
                    I am a person who is positive about every aspect of life.I like to Typing, Designing & Programming.
                    </p>
-                   <div >
+                   <div>
+                   
 
                        <sapn className='exp-manage'>
                        <p className='experience-element'>Laravel</p>
@@ -41,13 +43,16 @@ const Detail = () => {
                        <p className='experience-element'>Mongo db</p>
                        </sapn>
                    
-                   
+                       </div>
                    
                        
                       
-                       </div>
+                      
                  </div>
 
+            </div>
+           
+               
             
         </div>
     );

@@ -2,10 +2,15 @@
     width: 100%;
     height: 590px;
     background-color: rgb(15, 14, 14);
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+   
     clip-path: inset(0 0 0 0);
     align-items: start;
+}
+.detail-manage{
+   
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 .detail-img img{
     width: 420px;
@@ -14,11 +19,12 @@
     border-radius: 2px;
     margin-left: 80px;
     padding-top: 40px;
-    border-radius: 5px;
+   
    
 }
 .detail-about{
     width: 600px;
+    height: 590px;
     margin-left: 40px;
 }
 .detail-about h4{
@@ -54,31 +60,61 @@
     margin-left: 10px;
     
 }
+
+@media (max-width:575px)
+ {
+    
+   
+    
+    .detail-manage{
+       
+        height: auto;
+       
+        background-color: darkgoldenrod;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .detail-about{
+        
+        height:auto;
+        width: auto;
+        background-color: crimson;
+       
+    }
+    .about-title{
+        width: auto;
+    }
+    .detail-all{
+        height: auto;
+    }
+
+    
+}
 @media (max-width:768px)
  {
     .detail-all{
-        width: auto;
-        height: auto;
-      
-        /* background-color: rgb(15, 14, 14); */
-      
-        background-color: chocolate;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        clip-path: inset(0 0 0 0);
        
-    } 
+        height:auto;
+      
+        
+      
+       } 
     
-    .detail-img img{
-        width: 420px;
-        height: 550px;
+    .detail-manage{
        
-        border-radius: 2px;
+        height: auto;
        
-        padding-top: 10px;
-        border-radius: 5px;
-       
-       
+        background-color: darkgoldenrod;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .detail-about{
+        
+        height:auto;
+        width: auto;
+        background-color: crimson;
        
     }
+    .about-title{
+        width: auto;
+    }
+    
  }
