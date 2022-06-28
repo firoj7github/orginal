@@ -1,4 +1,4 @@
-.detail-all{
+.detail-side{
     width: 100%;
     height: 590px;
     background-color: rgb(15, 14, 14);
@@ -78,6 +78,7 @@
         height:auto;
         width: auto;
         background-color: crimson;
+        margin-left: 10px;
        
     }
     .about-title{
@@ -91,30 +92,20 @@
 }
 @media (max-width:768px)
  {
-    .detail-all{
-       
-        height:auto;
-      
-        
-      
-       } 
-    
     .detail-manage{
+       grid-template-columns: repeat(1, 1fr);
+    }
+    .detail-about{
+     
+   
+     
+       
+    }
+    
+    .detail-side{
        
         height: auto;
        
-        background-color: darkgoldenrod;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .detail-about{
-        
-        height:auto;
-        width: auto;
-        background-color: crimson;
-       
-    }
-    .about-title{
-        width: auto;
-    }
+    } 
     
  }
