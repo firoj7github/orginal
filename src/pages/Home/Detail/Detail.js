@@ -12,10 +12,10 @@ const Detail = () => {
         <div id="about" className='detail-side'>
             <div className='detail-manage'>
 
-            <div data-aos="fade-up" className=' detail-img'>
+            <div data-aos="zoom-in-right" className=' detail-img'>
                      <img src={img} alt=''></img>
                 </div>
-                <div data-aos="fade-up" className='detail-about'>
+                <div data-aos="fade-left" className='detail-about'>
                    <h4>ABOUT ME</h4>
                    <p className='about-title'>
                    My name is firoj hossain. I complete BSC in Computer Science from national University. I'm a passionate web designer and developer with 2 year experience in this domain, focused on building great and premium websites. I have done 60+ local projects in frontend development.

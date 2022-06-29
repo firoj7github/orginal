@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Particles from 'react-tsparticles';
 import './Protfolio.css'
 import { loadFull } from "tsparticles";
@@ -9,8 +9,13 @@ import {FaGithubSquare} from "react-icons/fa";
 import {FaTwitterSquare} from "react-icons/fa";
 import {FaWhatsappSquare} from "react-icons/fa";
 import {FaFacebook} from "react-icons/fa";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 // import { Link } from 'react-scroll'
 const Protfolio = () => {
+  useEffect(()=>{
+    Aos.init({duration:2000});
+},[])
     const particlesInit = async (main) => {
         console.log(main);
     
@@ -159,10 +164,10 @@ const Protfolio = () => {
     <div className='protfolio-icon'></div>
     <h4 className='logo-manage'>
 
-    <a href="https://github.com/firoj7github"><span className='icon-system-change'><FaLinkedin></FaLinkedin></span></a>
-    <a href="https://www.facebook.com/"><span className='icon-system-change'> <FaFacebook></FaFacebook> </span></a>
-    <a href="https://www.linkedin.com/in/firoj-hossain-878765220/">
-                     <span className='icon-system-change'> <FaGithubSquare></FaGithubSquare> </span></a>
+    <a  href="https://github.com/firoj7github"><span className='icon-system-change'><FaLinkedin></FaLinkedin></span></a>
+    <a  href="https://www.facebook.com/"><span className='icon-system-change'> <FaFacebook></FaFacebook> </span></a>
+    <a  href="https://www.linkedin.com/in/firoj-hossain-878765220/">
+                     <span  className='icon-system-change'> <FaGithubSquare></FaGithubSquare> </span></a>
                     
                     
                  
