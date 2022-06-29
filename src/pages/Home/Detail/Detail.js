@@ -1,16 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Detail.css'
 import img from '../../../image/lol2.png'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Detail = () => {
+    useEffect(()=>{
+        Aos.init({duration:2000});
+    },[])
     return (
         <div id="about" className='detail-side'>
             <div className='detail-manage'>
 
-            <div className=' detail-img'>
+            <div data-aos="fade-up" className=' detail-img'>
                      <img src={img} alt=''></img>
                 </div>
-                <div className='detail-about'>
+                <div data-aos="fade-up" className='detail-about'>
                    <h4>ABOUT ME</h4>
                    <p className='about-title'>
                    My name is firoj hossain. I complete BSC in Computer Science from national University. I'm a passionate web designer and developer with 2 year experience in this domain, focused on building great and premium websites. I have done 60+ local projects in frontend development.

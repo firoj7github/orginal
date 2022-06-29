@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import Category from '../Category/Category';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 
 import './Slider.css'
 
 const Slider = () => {
+   
     
    const services= [
         {
@@ -84,10 +87,10 @@ const Slider = () => {
 
             </div>
             <div className='btn-all'>
-                <a onClick={()=>setItem(services)} className='slider-btn'><span>ALL</span></a>
-                <a  onClick={()=>filterSide('html')} className='slider-btn'><span>HTML DESIGN</span></a>
-                <a  onClick={()=>filterSide('react')} className='slider-btn'><span>REACT</span></a>
-                <a  onClick={()=>filterSide('development')} className='slider-btn'><span>WEB DEVELOPMENT</span></a>
+                <a onClick={()=>setItem(services)} spy={true} smooth={true} offset={50} duration={500} className='slider-btn'><span>ALL</span></a>
+                <a  onClick={()=>filterSide('html')} spy={true} smooth={true} offset={50} duration={500} className='slider-btn'><span>HTML DESIGN</span></a>
+                <a  onClick={()=>filterSide('react')} spy={true} smooth={true} offset={50} duration={500} className='slider-btn'><span>REACT</span></a>
+                <a  onClick={()=>filterSide('development')} spy={true} smooth={true} offset={50} duration={500} className='slider-btn'><span>WEB DEVELOPMENT</span></a>
             </div>
             <div className='service-all'>
                 {

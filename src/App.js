@@ -4,6 +4,7 @@ import './App.css';
 import AnimatedCursor from "react-animated-cursor"
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
+import Aos from 'aos';
 import Blog from './pages/Home/Blog';
 import About from './pages/Home/About';
 

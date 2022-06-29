@@ -110,16 +110,16 @@ const Protfolio = () => {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto type mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active text-white" aria-current="page" href="#" spy={true} smooth={true} duration={800}>Home</a>
+          <a class="nav-link active text-white" aria-current="page" href="#" spy={true} smooth={true} offset={-100} duration={800}>Home</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link active text-white text-white" href="#about" spy={true} smooth={true} duration={5000}>About</a>
+          <a class="nav-link active text-white text-white" href="#about" spy={true} smooth={true} offset={-100} duration={5000}>About</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link active text-white text-white" href="#project" spy={true} smooth={true} duration={5000}>Project</a>
+          <a class="nav-link active text-white text-white" href="#project" spy={true} smooth={true} offset={-100} duration={5000}>Project</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link active text-white text-white" href="#contact" spy={true} smooth={true} duration={5000}>Contact</a>
+          <a class="nav-link active text-white text-white" href="#contact" spy={true} smooth={true} offset={-150} duration={5000}>Contact</a>
         </li>
       
        

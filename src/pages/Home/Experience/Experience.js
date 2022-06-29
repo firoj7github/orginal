@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Experience.css'
 import { HiDatabase} from "react-icons/hi";
 import {FaCode} from "react-icons/fa";
 import {FaBuffer} from "react-icons/fa";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Experience = () => {
+    useEffect(()=>{
+        Aos.init({duration:2000});
+    },[])
     return (
         <div className='experience-all'>
             <h1><span className='o-color'>M</span>y Experience</h1>
@@ -16,7 +21,7 @@ const Experience = () => {
           
            <div className='all'>
                
-               <div className='part-1'>
+               <div data-aos="fade-up" className='part-1'>
                <h2 className='icon-22'><FaCode></FaCode></h2>
                 <h3>Website Design</h3>
                 <p>PSD to HTML</p>
@@ -29,7 +34,7 @@ const Experience = () => {
                
                 
                </div>
-               <div className='part-2'>
+               <div data-aos="fade-up" className='part-2'>
                <h2 className='icon-22'><HiDatabase></HiDatabase></h2>
                <h3>Web Development</h3>
                 <p>Creat Database</p>
@@ -42,7 +47,7 @@ const Experience = () => {
                
                 <p>Website Disaster Recovery</p>
                </div>
-               <div className='part-3'>
+               <div data-aos="fade-up" className='part-3'>
                <h2 className='icon-22'><FaBuffer></FaBuffer></h2>
                <h3>Graphic Design</h3>
                 <p>UI/UX Design</p>
