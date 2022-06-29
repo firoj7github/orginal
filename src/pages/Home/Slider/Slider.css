@@ -104,15 +104,15 @@
     }
     .btn-all a{
         border: none;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 500;
         text-decoration: none;
         background: rgb(34,193,195);
         background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(104,171,185,0.5662640056022409) 100%);
         padding-left: 0px;
         padding-right: 0px;
-        padding-top: 3px;
-        padding-bottom: 3px;
+        padding-top: 8px;
+        padding-bottom: 8px;
         position: relative;
         border-radius: 8px;
        
@@ -133,6 +133,49 @@
 
     
 }
+@media  (min-width:450px) and (max-width:576px)
+ {
+    .service-all{
+        
+        grid-template-columns: repeat(1, 1fr);
+        width: auto;
+       
+        height: auto;
+        margin-left: 90px;
+      
+    }
+    .slider-all{
+        height: auto;
+    }
+    .line-all-slide{
+        display: flex;
+        margin-left: 161px;
+        margin-top: -53px;
+        margin-bottom: 47px;
+       
+    }
+    .btn-all a{
+        border: none;
+        font-size: 10px;
+        font-weight: 500;
+        text-decoration: none;
+        background: rgb(34,193,195);
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(104,171,185,0.5662640056022409) 100%);
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        position: relative;
+        border-radius: 8px;
+       
+        margin: 1px;
+        
+    }
+    .btn-all{
+        margin-left: 75px;
+        width: 460px;
+    }
+ }
 @media  (min-width:577px) and (max-width:768px)
  {
     
@@ -144,6 +187,36 @@
        
         height: auto;
         margin-left: 90px;
+      
+    }
+    .slider-all{
+        height: auto;
+    }
+    .line-all-slide{
+        display: flex;
+        margin-left: 276px;
+        margin-top: -53px;
+        margin-bottom: 47px;
+       
+    }
+    .btn-all{
+        margin-left: 50px;
+        width: 680px;
+    }
+
+    
+}
+@media  (min-width:769px) and (max-width:800px)
+ {
+    
+    
+    .service-all{
+        
+        grid-template-columns: repeat(1, 1fr);
+        width: auto;
+       
+        height: auto;
+        margin-left: 110px;
       
     }
     .slider-all{
