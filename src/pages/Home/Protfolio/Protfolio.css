@@ -17,7 +17,7 @@
    
 }
 .focus{
-    background-color: rgb(18, 17, 17);
+  
 }
 .header-all{
     width: 100%;
@@ -93,7 +93,53 @@
     font-size: 20px;
     color: white;
 }
-@media  (min-width:575px) and (max-width:768px) 
+@media  (min-width:300px) and (max-width:400px) 
+ {
+
+    .protfolio-all{
+        width: auto;
+        height: auto;
+        
+        background: url(../../../image/them.png);
+       position: sticky;
+       top: 0px;
+       /* background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-attachment: fixed; */
+        
+       
+       
+    }
+    .header-all ul{
+        margin-left: 15px;
+        padding-top: 20px;
+        
+       }
+
+       .header-all ul a{
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+        font-size: 14px;
+        transition: all 0.4s;
+    }
+    .header-all h3{
+        color: white;
+        margin-left: 5px;
+        font-size: 15px;
+        font-family: 'Ubuntu', sans-serif;
+        
+        
+    }
+    .span-title{
+      color: orange;
+    }
+
+
+
+ }
+@media  (min-width:500px) and (max-width:768px) 
  {
     
 
