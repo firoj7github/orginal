@@ -9,6 +9,7 @@ import {FaGithubSquare} from "react-icons/fa";
 import {FaTwitterSquare} from "react-icons/fa";
 import {FaWhatsappSquare} from "react-icons/fa";
 import {FaFacebook} from "react-icons/fa";
+// import { Link } from 'react-scroll'
 const Protfolio = () => {
     const particlesInit = async (main) => {
         console.log(main);
@@ -107,18 +108,18 @@ const Protfolio = () => {
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav ms-auto type mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          <a class="nav-link active text-white" aria-current="page" href="#" spy={true} smooth={true} duration={800}>Home</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link text-white" href="#">About</a>
+          <a class="nav-link active text-white text-white" href="#about" spy={true} smooth={true} duration={5000}>About</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link text-white" href="#">Project</a>
+          <a class="nav-link active text-white text-white" href="#project" spy={true} smooth={true} duration={5000}>Project</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link text-white" href="#">Contact</a>
+          <a class="nav-link active text-white text-white" href="#contact" spy={true} smooth={true} duration={5000}>Contact</a>
         </li>
       
        

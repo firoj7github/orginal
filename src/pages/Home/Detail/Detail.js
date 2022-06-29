@@ -4,7 +4,7 @@ import img from '../../../image/lol2.png'
 
 const Detail = () => {
     return (
-        <div  className='detail-side'>
+        <div id="about" className='detail-side'>
             <div className='detail-manage'>
 
             <div className=' detail-img'>

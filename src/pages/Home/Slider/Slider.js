@@ -76,7 +76,7 @@ const Slider = () => {
            setItem(updateItem);
     }
     return (
-        <div className='slider-all'>
+        <div id="project" className='slider-all'>
             <h1 className='slider-title'><span className='o-color'>M</span>y Protfolio</h1>
             <div className='line-all-slide'>
                 <div className='line-3'></div>
