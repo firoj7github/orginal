@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 
 const Detail = () => {
     useEffect(()=>{
-        Aos.init({duration:2000});
+        Aos.init({duration:3000});
     },[])
     return (
         <div id="about" className='detail-side'>
@@ -17,12 +17,12 @@ const Detail = () => {
                 </div>
                 <div data-aos="fade-left" className='detail-about'>
                    <h4>ABOUT ME</h4>
-                   <p className='about-title'>
+                   <h6 className='about-title'>
                    My name is firoj hossain. I complete BSC in Computer Science from national University. I'm a passionate web designer and developer with 2 year experience in this domain, focused on building great and premium websites. I have done 60+ local projects in frontend development.
                    <br/>
                    <br/>
                    I am a person who is positive about every aspect of life.I like to Typing, Designing & Programming.
-                   </p>
+                   </h6>
                    <div>
                    
 

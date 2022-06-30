@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 const Category = ({service}) => {
     useEffect(()=>{
-        Aos.init({duration:2000});
+        Aos.init({duration:3000});
     },[])
     const { img, name, github, live}=service;
     return (

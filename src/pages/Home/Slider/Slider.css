@@ -236,3 +236,33 @@
 
     
 }
+@media  (min-width:820px) and (max-width:1100px)
+ {
+    
+    
+    .service-all{
+        
+        grid-template-columns: repeat(2, 1fr);
+        width: 950px;
+       
+        height: auto;
+        margin-left: 50px;
+      
+    }
+    .slider-all{
+        height: auto;
+    }
+    .line-all-slide{
+        display: flex;
+        margin-left: 400px;
+        margin-top: -53px;
+        margin-bottom: 47px;
+       
+    }
+    .btn-all{
+        margin-left: 190px;
+        width: 680px;
+    }
+
+    
+}

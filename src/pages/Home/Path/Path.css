@@ -51,9 +51,7 @@
 .testonimal-title a{
     padding-top: 500px;
 }
-
-
-@media (max-width:768px)
+@media(min-width:300px) and (max-width:450px)
  {
     
     
@@ -65,17 +63,130 @@
         clip-path: circle(178vh at 48%  201vh);
     }
     .testonimal{
-        width: 700px;
-        margin-left: 574px;
+        width: 120px;
+        margin-left: 24px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .testonimal-image img{
+        width: 90px;
+        height: 70px;
+    }
+    .testonimal-title{
+        width: 200px;
+        height: 120px;
+        margin-bottom: 150px;
+    }
+    .testonimal-title p{
+        width: 80px;
+        font-size: 11px;
+    }
+    .testonimal-title h5{
+        width: 70px;
+        font-size: 13px;
+        padding-top: 15px;
+        color: white; 
+    }
+    
+    
+}
+@media(min-width:450px) and (max-width:576px)
+ {
+    
+    
+    
+    
+    .path-all{
+        width: auto;
+        height: auto;
+        clip-path: circle(178vh at 48%  201vh);
+    }
+    .testonimal{
+        width: 500px;
+        margin-left: 23px;
+        grid-template-columns: repeat(1, 1fr);
     }
     .testonimal-image img{
         width: 180px;
         height: 150px;
     }
     .testonimal-title{
-        width: 350px;
+        width: 300px;
         height: 120px;
         margin-bottom: 150px;
+    }
+    .testonimal-title p{
+        width: 150px;
+    }
+    .testonimal-title h5{
+        width: 150px;
+        padding-top: 15px;
+        color: white; 
+    }
+    
+    
+}
+
+
+
+@media(min-width:577px) and (max-width:768px)
+ {
+    
+    
+    
+    
+    .path-all{
+        width: auto;
+        height: auto;
+        clip-path: circle(178vh at 48%  201vh);
+    }
+    .testonimal{
+        width: 500px;
+        margin-left: 30px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .testonimal-image img{
+        width: 180px;
+        height: 150px;
+    }
+    .testonimal-title{
+        width: 300px;
+        height: 120px;
+        margin-bottom: 150px;
+    }
+    .testonimal-title p{
+        width: 270px;
+    }
+
+    
+}
+
+@media(min-width:821px) and (max-width:1100px)
+ {
+    
+    
+    
+    
+    .path-all{
+        width: auto;
+        height: auto;
+        clip-path: circle(178vh at 48%  201vh);
+    }
+    .testonimal{
+        width: 500px;
+        margin-left: 30px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .testonimal-image img{
+        width: 220px;
+        height: 180px;
+    }
+    .testonimal-title{
+        width: 300px;
+        height: 120px;
+        margin-bottom: 150px;
+    }
+    .testonimal-title p{
+        width: 270px;
     }
 
     
