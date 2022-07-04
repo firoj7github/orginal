@@ -64,8 +64,8 @@ const Slider = () => {
             "img":"https://i.ibb.co/t4hcwnJ/gimox-fitness-theme.png",
             "category":"development",
             "name":"Gymnastic Website",
-            "github":" https://github.com/firoj7github/React-Photographic-Web",
-            "live":""
+            "github":" https://github.com/firoj7github/gym-web",
+            "live":"https://gym-web-a0522.web.app/ "
         
         
         }

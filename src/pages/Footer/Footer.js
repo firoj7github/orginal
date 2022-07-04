@@ -26,11 +26,11 @@ const Footer = () => {
                 </div>
                 <div>
                 <h3 className='logo'>
-                <a href="https://www.linkedin.com/in/firoj-hossain-878765220/"><span className='icon-system'><FaLinkedin></FaLinkedin></span></a>
-                <a href="https://github.com/firoj7github"><span className='icon-system'> <FaGithubSquare></FaGithubSquare> </span></a>
+                <a target="_blank" href="https://www.linkedin.com/in/firoj-hossain-878765220/"><span className='icon-system'><FaLinkedin></FaLinkedin></span></a>
+                <a target="_blank" href="https://github.com/firoj7github"><span className='icon-system'> <FaGithubSquare></FaGithubSquare> </span></a>
                
-                <a href="https://www.w3schools.com"> <span className='icon-system'> <FaFacebook></FaFacebook> </span></a>
-                <a href="https://www.w3schools.com">   <span className='icon-system'> <FaWhatsappSquare></FaWhatsappSquare> </span> </a>
+                <a target="_blank" href="https://www.w3schools.com"> <span className='icon-system'> <FaFacebook></FaFacebook> </span></a>
+                
                     
                     
                      

@@ -14,8 +14,8 @@ const Category = ({service}) => {
             <div data-aos="fade-up" className='category-img'>
             <img src={img} alt=""></img>
             <p>{name} <br/> React Site  </p>
-            <a href={github}>Github</a>
-            <a href={live}>Live Demo</a>
+            <a target="_blank" href={github}>Github</a>
+            <a target="_blank" href={live}>Live Demo</a>
       
         </div>
         
